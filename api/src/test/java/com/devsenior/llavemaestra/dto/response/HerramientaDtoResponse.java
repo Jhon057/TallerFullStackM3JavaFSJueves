@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class HerramientaResponse {
+public class HerramientaDtoResponse {
 
   private Long id;
   private String nombre;
