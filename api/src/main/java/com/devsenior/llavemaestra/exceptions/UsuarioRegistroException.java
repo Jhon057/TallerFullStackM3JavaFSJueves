@@ -1,4 +1,4 @@
-package com.devsenior.llavemaestra.services.exceptions;
+package com.devsenior.llavemaestra.exceptions;
 
 public class UsuarioRegistroException extends RuntimeException {
 

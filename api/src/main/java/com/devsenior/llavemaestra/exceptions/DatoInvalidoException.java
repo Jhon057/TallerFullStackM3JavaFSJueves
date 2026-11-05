@@ -1,4 +1,4 @@
-package com.devsenior.llavemaestra.exception;
+package com.devsenior.llavemaestra.exceptions;
 
 // 400: los datos no tienen sentido para el negocio (ej: fecha de fin antes de la de inicio)
 public class DatoInvalidoException extends RuntimeException {

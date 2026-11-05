@@ -12,9 +12,9 @@ import org.springframework.stereotype.Service;
 import com.devsenior.llavemaestra.dto.request.LoginRequest;
 import com.devsenior.llavemaestra.dto.request.RegistroRequest;
 import com.devsenior.llavemaestra.dto.response.AuthResponse;
+import com.devsenior.llavemaestra.exceptions.UsuarioRegistroException;
 import com.devsenior.llavemaestra.models.Usuario;
 import com.devsenior.llavemaestra.repositories.UsuarioRepository;
-import com.devsenior.llavemaestra.services.exceptions.UsuarioRegistroException;
 
 import lombok.RequiredArgsConstructor;
 

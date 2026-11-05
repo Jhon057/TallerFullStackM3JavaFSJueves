@@ -1,4 +1,4 @@
-package com.devsenior.llavemaestra.exception;
+package com.devsenior.llavemaestra.exceptions;
 
 // 404: el recurso pedido no existe
 public class RecursoNoEncontradoException extends RuntimeException {

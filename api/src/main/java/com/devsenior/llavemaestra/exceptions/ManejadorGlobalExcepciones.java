@@ -1,6 +1,7 @@
-package com.devsenior.llavemaestra.exception;
+package com.devsenior.llavemaestra.exceptions;
 
-import com.devsenior.llavemaestra.dto.ErrorResponse;
+import java.time.LocalDateTime;
+
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 
-import java.time.LocalDateTime;
+import com.devsenior.llavemaestra.dto.ErrorResponse;
 
 // Cada error responde con su codigo HTTP honesto y el mismo formato: { codigo, mensaje, fecha }
 @RestControllerAdvice
